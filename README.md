@@ -52,5 +52,5 @@ git init
 git add .
 git commit -m "Initial commit - Typing Speed Analyzer"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/typing-speed-analyzer.git
+git remote add origin https://github.com/anji-ngu/typing-speed-analyzer.git
 git push -u origin main
