@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>⌨️ Typing Speed Analyzer</h1>
+
+    <div class="timer-box">
+        <span>Time Left:</span>
+        <span id="time">60</span>s
+    </div>
+
+    <div class="paragraph" id="paragraph">
+        Loading paragraph...
+    </div>
+
+    <textarea
+        id="input"
+        placeholder="Start typing here..."
+    ></textarea>
+
+    <div class="result">
+
+        <div class="card">
+            <h2 id="wpm">0</h2>
+            <p>WPM</p>
+        </div>
+
+        <div class="card">
+            <h2 id="accuracy">100%</h2>
+            <p>Accuracy</p>
+        </div>
+
+        <div class="card">
+            <h2 id="mistakes">0</h2>
+            <p>Mistakes</p>
+        </div>
+
+    </div>
+
+    <button id="restart">
+        Restart Test
+    </button>
+
+</div>
+
+<script src="paragraphs.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
